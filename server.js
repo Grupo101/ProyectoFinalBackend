@@ -31,7 +31,6 @@ app.use(function (req, res, next) {
     next();
 });
 
-
 app.get('/', function (req, res) {
     console.log("Estructura base del proyecto backend");
     res.send("Estructura base del proyecto backend");
